@@ -1,0 +1,40 @@
+{
+  "ReRoutes": [
+    {
+      "DownStreamPathTemplate": "/api/user",
+      "DownStreamScheme": "https",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44362"
+        }
+      ],
+      "UpStreamPathTemplate": "/user",
+      "UpStreamHttpMethod": [ "GET", "POST" ]
+    },
+    {
+      "DownStreamPathTemplate": "/api/user/{id}",
+      "DownStreamScheme": "https",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44362"
+        }
+      ],
+      "UpStreamPathTemplate": "/user/{id}",
+      "UpStreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownStreamPathTemplate": "/api/department",
+      "DownStreamScheme": "https",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "44380"
+        }
+      ],
+      "UpStreamPathTemplate": "/department",
+      "UpStreamHttpMethod": [ "GET", "POST" ]
+    }
+  ]
+}

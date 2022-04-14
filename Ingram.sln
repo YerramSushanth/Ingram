@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IngramWebAPI", "IngramWebAPI\IngramWebAPI.csproj", "{025D630E-310C-4947-844A-0811592C97BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIGateway", "APIGateway\APIGateway.csproj", "{AA3A2007-2D23-4810-ACD4-C753C0DB4F83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IngramReactAPI", "IngramReactAPI\IngramReactAPI.csproj", "{20BE986C-B7AE-4A71-ADA2-4154EF366122}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{025D630E-310C-4947-844A-0811592C97BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{025D630E-310C-4947-844A-0811592C97BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{025D630E-310C-4947-844A-0811592C97BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{025D630E-310C-4947-844A-0811592C97BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA3A2007-2D23-4810-ACD4-C753C0DB4F83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA3A2007-2D23-4810-ACD4-C753C0DB4F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA3A2007-2D23-4810-ACD4-C753C0DB4F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA3A2007-2D23-4810-ACD4-C753C0DB4F83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20BE986C-B7AE-4A71-ADA2-4154EF366122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20BE986C-B7AE-4A71-ADA2-4154EF366122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20BE986C-B7AE-4A71-ADA2-4154EF366122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20BE986C-B7AE-4A71-ADA2-4154EF366122}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF5E84AC-A5AE-49E2-8290-18A72183706A}
+	EndGlobalSection
+EndGlobal
